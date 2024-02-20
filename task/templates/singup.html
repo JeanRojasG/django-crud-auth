@@ -1,0 +1,11 @@
+<h1>SingUP</h1>
+
+<form action="/singup/" method="post">
+{% csrf_token %}
+{{form.as_p}}
+
+<button>
+    Registrarse
+</button>
+
+</form>
